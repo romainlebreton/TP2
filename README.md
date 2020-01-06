@@ -4,7 +4,7 @@
 
 * **Cours:** [M2103](http://cache.media.enseignementsup-recherche.gouv.fr/file/25/09/7/PPN_INFORMATIQUE_256097.pdf) - support [ici](https://github.com/IUTInfoMontp-M2103/Ressources)
 * **Enseignants:** [Marin Bougeret](mailto:marin.bougeret@umontpellier.fr), [Sébastien Gagné](mailto:sebastien.gagne@umontpellier.fr), [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr), [Jérôme Palaysi](mailto:jerome.palaysi@umontpellier.fr), [Victor Poupet](mailto:victor.poupet@umontpellier.fr), [Petru Valicov](mailto:petru.valicov@umontpellier.fr)
-* Le [forum Piazza](https://piazza.com/class/jpv7gf0lltk4kc) de ce cours pour poser vos questions
+* Le [forum Piazza](https://piazza.com/class/k52c8w685w3210) de ce cours pour poser vos questions
 * [Email](mailto:petru.valicov@umontpellier.fr) pour une question d'ordre privée concernant le cours.
 
 
@@ -27,7 +27,7 @@ Bien évidement, rien ne vous empêche d'en utiliser un autre ([Eclipse](https:/
 
 D'abord, et comme pour tous les tps de POO qui vont suivre, vous allez forker ce dépôt pour pouvoir commencer à travailler localement :
 
-https://classroom.github.com/a/sOEtP2b1
+__Lien Classroom ICI__
 
 Contrairement au TP1, ne clonez pas tout de suite vous même ce fork, l'IDE s'en chargera tout seul (cf ci-dessous).
 
@@ -36,7 +36,7 @@ Contrairement au TP1, ne clonez pas tout de suite vous même ce fork, l'IDE s'en
 
 IntelliJ IDEA possède deux versions, la première dite *'communautaire'* est totalement open source et peut être utilisée 
 gratuitement par n'importe qui et la seconde dite *'ultimate'* qui est plus riche en fonctionnalité et qui n'est pas 
-gratuite pour les individus lambda. Les deux versions du logiciels sont présentes sur les machines du département. Par chance, comme dans le cas de GitHub, en tant qu'étudiant, vous avez la 
+gratuite. Les deux versions du logiciels sont présentes sur les machines du département. Par chance, comme dans le cas de GitHub, en tant qu'étudiant, vous avez la 
 possibilité de pouvoir bénéficier d'une licence pour tous les produits JetBrains. Pour bénéficier de cette remise, il 
 vous suffit de remplir [ce formulaire](https://www.jetbrains.com/shop/eform/students).
 
@@ -47,10 +47,10 @@ chez vous et dans les salles de TP.
 
 **Premier lancement de l'IDE**
 
-Sur les postes Linux du département informatique de l'IUT de Montpellier, IntelliJ IDEA Ultimate est installé dans `/opt/idea-IU-183.5153.38/`. Si la version Ultimate (IU) n'est pas disponible, vous pouvez toujours utiliser la version Community installée dans `/opt/idea-IC-181.5281.24/`:
+Sur les postes Linux du département informatique de l'IUT de Montpellier, IntelliJ IDEA Ultimate est installé dans `/opt/idea-IU-*****/`. Si la version Ultimate (IU) n'est pas disponible, vous pouvez toujours utiliser la version Community installée dans `/opt/idea-IU-*****/`:
 ```
-~/RepertoireCourant$  cd /opt/idea-IU-183.5153.38/bin
-/opt/idea-IU-183.5153.38/bin$  ./idea.sh
+~/RepertoireCourant$  cd /opt/idea-IU-*****/bin
+/opt/idea-IU-*****/bin$  ./idea.sh
 ```
 
 Après le chargement, vous devriez tomber sur une première fenêtre vous proposant d'importer vos paramètres. Vous pouvez laisser sur 'Do not import settings' et valider :
@@ -71,7 +71,7 @@ Le repository sera celui correspondant à votre TP sur GitHub :
 
 ![](src/main/resources/CloneGitHub.png)
 
-Sur certaines machines, au lancement du projet, il se peut que l'IDE vous demande d'indiquer le SDK à utiliser (grosso modo c'est l'ensemble d'outils logiciels qui permettent de faire tourner des programmes Java). Vous choisirez le SDK 1.8.
+Sur certaines machines, au lancement du projet, il se peut que l'IDE vous demande d'indiquer le SDK à utiliser (grosso modo c'est l'ensemble d'outils logiciels qui permettent de faire tourner des programmes Java). Vous pouvez choisir le SDK 1.11 (mais 1.8 fera également l'affaire).
 Lorsque vous ouvrez votre projet Java, la fenêtre d'affichage de votre IDE devrait rassembler à quelque chose comme ceci :
 
 ![](src/main/resources/FenetreIDE.png)
