@@ -63,7 +63,7 @@ Après le chargement, vous devriez tomber sur une première fenêtre vous propos
 
 **Import du projet dans l'IDE**
 
-Une fois arrivé sur la fenêtre de démarrage de l'IDE, vous devez choisir comment vous souhaitez démarrer le travail. Pour commencer votre TP, il faut cloner votre dépôt Git, vous choisirez donc l'option *Get rom Version Control* :
+Une fois arrivé sur la fenêtre de démarrage de l'IDE, vous devez choisir comment vous souhaitez démarrer le travail. Pour commencer votre TP, il faut cloner votre dépôt Git, vous choisirez donc l'option *Get from Version Control* :
 
 ![](ressources/ImportProjet.png)
 
