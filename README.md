@@ -27,9 +27,9 @@ Bien évidement, rien ne vous empêche d'en utiliser un autre ([Eclipse](https:/
 
 D'abord, et comme pour tous les tps de POO qui vont suivre, vous allez forker ce dépôt pour pouvoir commencer à travailler localement :
 
-__Lien Classroom ICI__
+https://classroom.github.com/a/t3W9h14X
 
-Contrairement au TP1, ne clonez pas tout de suite vous même ce fork, l'IDE s'en chargera tout seul (cf ci-dessous).
+Contrairement au TP1, ne clonez pas tout de suite vous même ce fork, l'IDE s'en chargera tout seul (cf. ci-dessous).
 
 ### Découverte et prise en main de l'IDE
 
