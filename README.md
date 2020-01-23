@@ -55,7 +55,7 @@ Sur les postes Linux du département informatique de l'IUT de Montpellier, Intel
 
 Après le chargement, vous devriez tomber sur une première fenêtre vous proposant d'importer vos paramètres. Vous pouvez laisser sur 'Do not import settings' et valider :
 
-![](src/main/resources/complete_installation.png)
+![](resources/complete_installation.png)
 
 À partir de là vous allez tomber sur la partie de personnalisation de votre installation pour qu'elle corresponde à vos besoins. Sur l'aspect esthétique, choisissez ce qui vous convient le mieux. En ce qui concerne les différents plugins à intégrer, à priori, les options installées par défaut sont suffisantes, donc vous choisirez l'installation par défaut.
 
@@ -65,16 +65,16 @@ Après le chargement, vous devriez tomber sur une première fenêtre vous propos
 
 Pour pouvoir maintenant travailler sur votre TP, il vous faut cloner votre dépôt Git :
 
-![](src/main/resources/ImportProjet.png)
+![](resources/ImportProjet.png)
 
 Le repository sera celui correspondant à votre TP sur GitHub :
 
-![](src/main/resources/CloneGitHub.png)
+![](resources/CloneGitHub.png)
 
 Sur certaines machines, au lancement du projet, il se peut que l'IDE vous demande d'indiquer le SDK à utiliser (grosso modo c'est l'ensemble d'outils logiciels qui permettent de faire tourner des programmes Java). Vous pouvez choisir le SDK 1.11 (mais 1.8 fera également l'affaire).
 Lorsque vous ouvrez votre projet Java, la fenêtre d'affichage de votre IDE devrait rassembler à quelque chose comme ceci :
 
-![](src/main/resources/FenetreIDE.png)
+![](resources/FenetreIDE.png)
 
 Prenez quelques minutes pour observer l'interface utilisateur. Les éléments principaux :
 * à gauche : l'arborescence de votre projet Java
@@ -103,7 +103,7 @@ doit s’écrire avant la fonctionnalité voulue, il est donc censé échouer in
 
 Ce workflow se décrit par le triptyque "RED, GREEN, REFACTOR" dans le schéma suivant :
 
-![](src/main/resources/test-driven-development.png)
+![](resources/test-driven-development.png)
 
 Le workflow que vous allez devoir suivre va reprendre la même structure, mis à part qu'au début, les tests vous seront donnés pour vous faire découvrir cette méthode sans trop de douleur.
 
@@ -132,7 +132,7 @@ class MaPetiteClasseDeTests {
 Pour exécuter les tests, la façon la plus simple est d'utiliser votre IDE : ouvrir la classe contenant le test et utiliser le bouton 'Play' exécuter les tests contenues dans cette classe.
 Le résultat de l’exécution s'affiche en bas de la fenêtre de l'IDE :
  * les tests ayant **réussi** sont affiché en **vert**
- * les test ayant **échoué** sont en **rouge**
+ * les tests ayant **échoué** sont en **rouge**
 
 Votre IDE vous affiche également la cause de l'échec en vous indiquant le résultat attendu de la fonctionnalitée testée
 et le résultat effectif.
@@ -142,12 +142,12 @@ Pour bien séparer le code de ses tests, nous allons utiliser la convention [Mav
 dans l'ensemble des TPs de POO.
 Ainsi le code est organisé de la façon suivante :
 
-![](src/main/resources/ArborescenceMaven.png)
+![](resources/ArborescenceMaven.png)
 * l'intégralité des sources du projet se trouve dans le répertoire `src/`
 * le code source et fichiers source principaux se trouvent dans `src/main`
 * tous les fichiers de tests sont dans dans `src/test`
 
-![](src/main/resources/ArborescenceMavenDetail.png)
+![](resources/ArborescenceMavenDetail.png)
 * le code source (ou code applicatif) se trouve dans `src/main/java`
 * le code source de test se trouve dans `src/test`
 
@@ -314,4 +314,4 @@ Pour cela placez-vous à la racine de votre projet et tapez la commande suivante
 ```
 Le résultat obtenu devrait rassembler à quelque chose comme ceci :
 
-![](src/main/resources/mvn_test_exemple.png)
+![](resources/mvn_test_exemple.png)
