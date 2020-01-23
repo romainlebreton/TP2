@@ -1,4 +1,4 @@
-# ![](ressources/logo.jpeg) Bases de la programmation orientée objet 
+# ![](ressources/logo.jpeg) Bases de la programmation orientée objet
 
 ### IUT Montpellier-Sète – Département Informatique
 
@@ -63,7 +63,7 @@ Après le chargement, vous devriez tomber sur une première fenêtre vous propos
 
 **Import du projet dans l'IDE**
 
-Pour pouvoir maintenant travailler sur votre TP, il vous faut cloner votre dépôt Git :
+Une fois arrivé sur la fenêtre de démarrage de l'IDE, vous devez choisir comment vous souhaitez démarrer le travail. Pour commencer votre TP, il faut cloner votre dépôt Git, vous choisirez donc l'option *Checkout from Version Control* :
 
 ![](resources/ImportProjet.png)
 
@@ -71,7 +71,7 @@ Le repository sera celui correspondant à votre TP sur GitHub :
 
 ![](resources/CloneGitHub.png)
 
-Sur certaines machines, au lancement du projet, il se peut que l'IDE vous demande d'indiquer le SDK à utiliser (grosso modo c'est l'ensemble d'outils logiciels qui permettent de faire tourner des programmes Java). Vous pouvez choisir le SDK 1.11 (mais 1.8 fera également l'affaire).
+Sur certaines machines, au lancement du projet, il se peut que l'IDE vous demande d'indiquer le SDK à utiliser (grosso modo c'est l'ensemble d'outils logiciels qui permettent de faire tourner des programmes Java). Vous pouvez choisir le SDK 1.11, mais 1.8 fera également l'affaire.
 Lorsque vous ouvrez votre projet Java, la fenêtre d'affichage de votre IDE devrait rassembler à quelque chose comme ceci :
 
 ![](resources/FenetreIDE.png)
