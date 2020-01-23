@@ -63,7 +63,7 @@ Après le chargement, vous devriez tomber sur une première fenêtre vous propos
 
 **Import du projet dans l'IDE**
 
-Une fois arrivé sur la fenêtre de démarrage de l'IDE, vous devez choisir comment vous souhaitez démarrer le travail. Pour commencer votre TP, il faut cloner votre dépôt Git, vous choisirez donc l'option *Checkout from Version Control* :
+Une fois arrivé sur la fenêtre de démarrage de l'IDE, vous devez choisir comment vous souhaitez démarrer le travail. Pour commencer votre TP, il faut cloner votre dépôt Git, vous choisirez donc l'option *Get rom Version Control* :
 
 ![](ressources/ImportProjet.png)
 
@@ -105,7 +105,7 @@ Ce workflow se décrit par le triptyque "RED, GREEN, REFACTOR" dans le schéma s
 
 ![](ressources/test-driven-development.png)
 
-Le workflow que vous allez devoir suivre va reprendre la même structure, mis à part qu'au début, les tests vous seront donnés pour vous faire découvrir cette méthode sans trop de douleur.
+Le workflow que vous devrez suivre va reprendre la même structure, mis à part qu'au début, les tests vous seront donnés pour vous faire découvrir cette méthode sans trop de douleur.
 
 #### Et au fait les tests, c'est quoi ?
 
