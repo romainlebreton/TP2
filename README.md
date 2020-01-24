@@ -47,7 +47,7 @@ chez vous et dans les salles de TP.
 
 **Premier lancement de l'IDE**
 
-Sur les postes Linux du département informatique de l'IUT de Montpellier, IntelliJ IDEA Ultimate est installé dans `/opt/ide-Ultimate/`. Si la version Ultimate (IU) n'est pas disponible, vous pouvez toujours utiliser la version Community installée dans `/opt/ide-Ultimate/`:
+Sur les postes Linux du département informatique de l'IUT de Montpellier, IntelliJ IDEA Ultimate est installé dans `/opt/ide-Ultimate/` :
 ```
 ~/RepertoireCourant$  cd /opt/ide-Ultimate/bin
 /opt/ide-Ultimate/bin$  ./idea.sh
