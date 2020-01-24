@@ -35,14 +35,14 @@ Contrairement au TP1, ne clonez pas tout de suite vous même ce fork, l'IDE s'en
 
 
 IntelliJ IDEA possède deux versions, la première dite *'communautaire'* est totalement open source et peut être utilisée 
-gratuitement par n'importe qui et la seconde dite *'ultimate'* qui est plus riche en fonctionnalité et qui n'est pas 
+gratuitement par n'importe qui et la seconde dite *'ultimate'* qui est plus riche en fonctionnalités et qui n'est pas 
 gratuite. Les deux versions du logiciels sont présentes sur les machines du département. Par chance, comme dans le cas de GitHub, en tant qu'étudiant, vous avez la 
 possibilité de pouvoir bénéficier d'une licence pour tous les produits JetBrains. Pour bénéficier de cette remise, il 
 vous suffit de remplir [ce formulaire](https://www.jetbrains.com/shop/eform/students).
 
-Quelques minutes après, vous recevrez un email de confirmation suivi d'un second email d'activation ou vous devrez accepter 
+Quelques minutes après, vous recevrez un email de confirmation suivi d'un second email d'activation où vous devrez accepter 
 les conditions d'utilisation et choisir un nom d'utilisateur et un mot de passe. Conservez précieusement ces 
-informations dans un coin identifié de votre cerveau car c'est grâce à elle que vous pourrez importer votre licence 
+informations dans un coin identifié de votre cerveau car c'est grâce à elles que vous pourrez importer votre licence 
 chez vous et dans les salles de TP.
 
 **Premier lancement de l'IDE**
@@ -86,7 +86,7 @@ Prenez quelques minutes pour observer l'interface utilisateur. Les éléments pr
 
 Maintenant que vous savez utiliser Git en ligne de commande, que vous avez forké, importé et ouvert le TP dans votre IDE, 
 vous êtes en capacité de travailler sur vos exercices. Pour cette séance nous vous proposons de suivre un workflow particulier pour résoudre vos exercices progressivement et en consolidant 
-progressivement un filet de sécurité qui vérifiera que votre code continue à bien faire ce qu'il doit. Il s'agit d'un premier apperçu de ce qu'on appelle le Développement Piloté par les Tests ([Test-Driven Development](https://fr.wikipedia.org/wiki/Test_driven_development) ou TDD pour faire court). 
+progressivement un filet de sécurité qui vérifiera que votre code continue à bien faire ce qu'il doit. Il s'agit d'un premier aperçu de ce qu'on appelle le Développement Piloté par les Tests ([Test-Driven Development](https://fr.wikipedia.org/wiki/Test_driven_development) ou TDD pour faire court). 
 
 Le TDD est une méthode de développement de logiciels qui consiste
 à travailler sur des cycles de développement très courts. La conception apparaît au fur et à mesure du développement en commençant à écrire les tests avant le code applicatif. Ceci favorise une meilleure compréhension du problème. Pour le développeur, les tests vont constituer une spécification technique exécutable et vérifiable à tout 
@@ -98,7 +98,7 @@ Ci-dessous le déroulement d’un cycle :
 doit s’écrire avant la fonctionnalité voulue, il est donc censé échouer initialement (normal, car vous n'avez encore rien programmé).
 2. Écrire le code __minimal__ suffisant pour passer le test (principe _BabySteps_).
 3. Vérifier que le test passe.
-4. __Réfactoriser__ (simplifier, améliorer, optimiser etc.) tous le code tout en gardant la fonctionnalité. Durant cette étape les tests écrits préalablement sont exécutés en permanence pour certifier la validité des changements.
+4. __Réfactoriser__ (simplifier, améliorer, optimiser etc.) tout le code tout en gardant la fonctionnalité. Durant cette étape les tests écrits préalablement sont exécutés en permanence pour certifier la validité des changements.
 
 
 Ce workflow se décrit par le triptyque "RED, GREEN, REFACTOR" dans le schéma suivant :
@@ -129,12 +129,12 @@ class MaPetiteClasseDeTests {
 }
 ```
 
-Pour exécuter les tests, la façon la plus simple est d'utiliser votre IDE : ouvrir la classe contenant le test et utiliser le bouton 'Play' exécuter les tests contenues dans cette classe.
+Pour exécuter les tests, la façon la plus simple est d'utiliser votre IDE : ouvrir la classe contenant le test et utiliser le bouton 'Play' exécuter les tests contenus dans cette classe.
 Le résultat de l’exécution s'affiche en bas de la fenêtre de l'IDE :
- * les tests ayant **réussi** sont affiché en **vert**
+ * les tests ayant **réussi** sont affichés en **vert**
  * les tests ayant **échoué** sont en **rouge**
 
-Votre IDE vous affiche également la cause de l'échec en vous indiquant le résultat attendu de la fonctionnalitée testée
+Votre IDE vous affiche également la cause de l'échec en vous indiquant le résultat attendu de la fonctionnalité testée
 et le résultat effectif.
 
 #### Organisation du projet Java - convention Maven
@@ -155,11 +155,11 @@ Ainsi le code est organisé de la façon suivante :
 
 Maven est un system de _build_ et administration de projets Java. Pour faire une analogie vous pouvez le comparer
 à l'outil bien connu [make](https://fr.wikipedia.org/wiki/Make) avec lequel vous serez bercés tout au long de vos études.
-Utiliser Maven permet de gérer facilement toutes les dépendances du projet (comme les librairies de tests unitaire par exemple).
+Utiliser Maven permet de gérer facilement toutes les dépendances du projet (comme les librairies de tests unitaires par exemple).
 Il est également utile pour créer le fichier `.jar` du projet : une archive contenant l'ensemble de classes Java et de ressources
  d'un projet informatique (comme `.AppImage` sous Linux ou `.exe` sous Windows).   
 
-Comme indiqué précédemment, dans ce TP les tests unitaires vous seront données dans le repertoire de test correspondant.
+Comme indiqué précédemment, dans ce TP les tests unitaires vous seront donnés dans le repertoire de test correspondant.
 Vous allez les activer un par un en commentant l'annotation `@Disabled`.
 
 __La règle principale à retenir__ : avant de faire un commit tous les tests qui ne sont pas annotés avec `@Disabled` __doivent
@@ -169,7 +169,7 @@ passer__ (pas de messages en rouge dans la console de l'IDE).
 ### Exercice 1 : Fizz Buzz !
 
 Le kata Fizz Buzz est un des katas les plus connus pour l'apprentissage du TDD.
-Une série 'FizzBuzz' de taille `n` est une suite d'entiers positifs où lorsqu'un multiple de 3 est rencontré on imprime "Fizz" et lorsqu'un multiple de 5 est renctontré, on imprime "Buzz". Voici la série FizzBuzz de taille 20 :
+Une série 'FizzBuzz' de taille `n` est une suite d'entiers positifs où, lorsqu'un multiple de 3 est rencontré on imprime "Fizz", et lorsqu'un multiple de 5 est renctontré on imprime "Buzz". Voici la série FizzBuzz de taille 20 :
 
 1 ; 2 ; Fizz ; 4 ; Buzz ; Fizz ; 7 ; 8 ; Fizz ; Buzz ; 11 ; Fizz ; 13 ; 14 ; FizzBuzz ; 16 ; 17 ; Fizz ; 19 ; Buzz
 
@@ -177,10 +177,10 @@ Implémentez la classe `FizzBuzz` qui vous est donnée dans le paquetage `fr.umo
   - `getValue(int i)` qui retournera une chaîne de caractères correspondant au nombre `i`dans la série FizzBuzz
   - `computeList(int n)` qui retournera toute la série 'FizzBuzz' jusqu'à la valeur passée en paramètre 
 
-La classe contenant les tests est situéé dans le répertoire correspondant au paquetage `fr.umontpellier.iut.exercice1` dans l'arborescence `src/test` de votre projet.
-Vous activerez les tests les un après les autres et soumettrez (avec un commit) votre solution après __chaque itération__ du cycle principal du workflow.
+La classe contenant les tests est située dans le répertoire correspondant au paquetage `fr.umontpellier.iut.exercice1` dans l'arborescence `src/test` de votre projet.
+Vous activerez les tests les uns après les autres et soumettrez (avec un commit) votre solution après __chaque itération__ du cycle principal du workflow.
 
-La classe principale (contenant le `main`) est la classe `App`, et se trouve dans le paquetage `fr.umontpellier.iut.exercice1`. Implémentez là (supprimez la ligne qui lève une exception) pour simuler le bon fonctionnement de votre programme.
+La classe principale (contenant le `main`) est la classe `App`, et se trouve dans le paquetage `fr.umontpellier.iut.exercice1`. Implémentez-la (supprimez la ligne qui lève une exception) pour simuler le bon fonctionnement de votre programme.
 
 Même si l'exercice paraît facile, prêtez une attention particulière à l'étape de réfactorisation. Vous vous servirez de votre IDE pour renommer les méthodes ou variables, pour l'autocomplétion etc.
 
@@ -189,12 +189,12 @@ Même si l'exercice paraît facile, prêtez une attention particulière à l'ét
 ### Exercice 2 : Facteurs Premiers
 
 D'après le Théorème fondamental de l'arithmétique, tout entier strictement positif peut être écrit comme un produit de nombres premiers.
-Dans cet exercice il vous est demandé d'implémenter la méthode qui, pour un entier strictement positif donné, renvoie la liste de ces facteurs premiers en ordre croissant.
+Dans cet exercice il vous est demandé d'implémenter la méthode qui, pour un entier strictement positif donné, renvoie la liste de ses facteurs premiers en ordre croissant.
 Par exemple pour l'entier 5, la liste retournée devrait être [5], alors que pour l'entier 12, la liste retournée devrait être [2,2,3].
 
 La méthode que vous devez implémenter est `computeFactors(int)`. Elle est située dans la classe `PrimeFactors` (paquetage `fr.umontpellier.iut.exercice2`) qui renvoie la liste de facteurs premiers pour l'entier passé en paramètre.
 
-Comme pour l'exercice précédent, vous activerez les tests les un après les autres.  N'oubliez pas de __refactoriser__ (i.e. simplifier/nettoyer/factoriser) le code à chaque étape. Vous soumettrez avec Git votre solution après chaque itération du cycle principal du workflow.
+Comme pour l'exercice précédent, vous activerez les tests les uns après les autres.  N'oubliez pas de __refactoriser__ (i.e. simplifier/nettoyer/factoriser) le code à chaque étape. Vous soumettrez avec Git votre solution après chaque itération du cycle principal du workflow.
 
 À la fin de l'exercice, pour vous convaincre de la validité de votre code, vous ajouterez un test supplémentaire pour un nouveau nombre que vous aurez choisi aléatoirement. Est-ce que votre programme passe ce nouveau test ?
 
@@ -214,13 +214,13 @@ Un nombre romain se lit de gauche à droite en faisant des additions et des sous
 
 On va se fixer une représentation unique des nombres romains avec les principes suivants :
 - Un même symbole n'est pas employé quatre fois de suite (sauf `M`) ;
-- Les soustractions s'effectuent sur un seul symbole (par exemple `XL` est correct et vaut 40, mais il est interdit d'écrire `XXL̀` pour 30, et on écrira plutôt `XXX̀`).
-- On écrira en repectant l'ordre suivant
+- Les soustractions s'effectuent sur un seul symbole (par exemple `XL` est correct et vaut 40, mais il est interdit d'écrire `XXL` pour 30, et on écrira plutôt `XXL`).
+- On écrira en respectant l'ordre suivant
    - d'abord le chiffre des milliers (à l'aide uniquement de `M`)
    - puis le chiffre des centaines (à l'aide uniquement de `C`,`D`,`M`)
    - puis le chiffre des dizaines (à l'aide uniquement de `X`,`L`,`C`)
    - puis le chiffre des unités (à l'aide uniquement de `I`,`V`,`X`)
-- Pour chacune des 4 étapes ci-dessus, on utilisera le moins de symboles possible
+- Pour chacune des 4 étapes ci-dessus, on utilisera le moins de symboles possible.
 
 Par exemple :
 - `IL` (pour 49) est interdit (I n'est pas autorisé pour décrire les dizaines), et 49 = `XLIX`
@@ -268,7 +268,7 @@ Dans tous les cas gardez cette citation d'Edsger W. Dijkstra en tête :
 
 ### Si l'IDE n'est pas votre tasse de thé...
 
-Naturellement vous pouvez faire le tout en ligne de commande.
+Naturellement vous pouvez faire le tout en ligne de commandes.
 Supposons que vous êtes sur Linux (la démarche étant quasiment identique sur Windows ou MacOS) et que la racine de votre projet est le répertoire `~/POO/TP2`.
 Positionnez-vous dans ce répertoire :
 ```
@@ -295,7 +295,7 @@ Pour exécuter le programme compilé :
 ~/POO/TP2$  cd target/
 ~/POO/TP2/target$  java fr.umontpellier.iut.exercice1.App
 ```
-L'avantage d'utiliser IntelliJ IDEA est qu'à priori vous n'avez pas à installer les divers dépendances, l'outil est _"self-contained"_.
+L'avantage d'utiliser IntelliJ IDEA est qu'à priori vous n'avez pas à installer les diverses dépendances, l'outil est _"self-contained"_.
 En revanche, si vous passez par la console, il se peut que vous soyez amenés à installer ou importer divers outils.
 Notamment, pour exécuter les tests unitaires dans un terminal, il faudrait utiliser un exécutable `.jar` correspondant
 à la platforme JUnit et contenant l'ensemble de dépendances nécessaires :
@@ -304,7 +304,7 @@ Notamment, pour exécuter les tests unitaires dans un terminal, il faudrait util
 ```
 
 La solution ci-dessus peut s'avérer particulièrement pénible lorsque vous avez plusieurs classes de tests,
-dans différents packages. Le plus simple c'est d'utiliser un outil de "build" comme Maven,
+dans différents packages. Le plus simple, c'est d'utiliser un outil de "build" comme Maven,
 [Gradle](https://fr.wikipedia.org/wiki/Gradle), [Ant](https://fr.wikipedia.org/wiki/Apache_Ant), [make](https://fr.wikipedia.org/wiki/Make) etc. 
 Par exemple, si Maven est installé sur votre machine vous pouvez exécuter les tests en ligne de commande assez facilement.
 Pour cela placez-vous à la racine de votre projet et tapez la commande suivante :
