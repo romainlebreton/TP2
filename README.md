@@ -216,10 +216,10 @@ On va se fixer une représentation unique des nombres romains avec les principes
 - Un même symbole n'est pas employé quatre fois de suite (sauf `M`).
 - Les soustractions s'effectuent sur un seul symbole (par exemple `XL` est correct et vaut 40, mais il est interdit d'écrire `XXL` pour 30, et on écrira plutôt `XXX`).
 - On écrira en respectant l'ordre suivant
-   - d'abord le chiffre des milliers (à l'aide uniquement de `M`)
-   - puis le chiffre des centaines (à l'aide uniquement de `C`,`D`,`M`)
-   - puis le chiffre des dizaines (à l'aide uniquement de `X`,`L`,`C`)
-   - puis le chiffre des unités (à l'aide uniquement de `I`,`V`,`X`)
+   - d'abord les chiffres des milliers (à l'aide uniquement de `M`)
+   - puis les chiffres des centaines (à l'aide uniquement de `C`,`D`,`M`)
+   - puis les chiffres des dizaines (à l'aide uniquement de `X`,`L`,`C`)
+   - puis les chiffres des unités (à l'aide uniquement de `I`,`V`,`X`)
 - Pour chacune des 4 étapes ci-dessus, on utilisera le moins de symboles possible.
 
 Par exemple :
