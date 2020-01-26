@@ -32,13 +32,6 @@ public class FizzBuzzTest {
 
     @Disabled
     @Test
-    public void test_four_should_print_four() {
-        String result = fizzBuzz.getValue(4);
-        assertEquals(result,"4");
-    }
-
-    @Disabled
-    @Test
     public void test_five_should_print_buzz() {
         String result = fizzBuzz.getValue(5);
         assertEquals(result,"Buzz");
@@ -53,23 +46,9 @@ public class FizzBuzzTest {
 
     @Disabled
     @Test
-    public void test_nine_should_print_fizz() {
-        String result = fizzBuzz.getValue(9);
-        assertEquals(result,"Fizz");
-    }
-
-    @Disabled
-    @Test
     public void test_ten_should_print_buzz() {
         String result = fizzBuzz.getValue(10);
         assertEquals(result,"Buzz");
-    }
-
-    @Disabled
-    @Test
-    public void test_twelve_should_print_fizz() {
-        String result = fizzBuzz.getValue(12);
-        assertEquals(result,"Fizz");
     }
 
     @Disabled
