@@ -2,7 +2,7 @@ package fr.umontpellier.iut.exercice3;
 
 class NumeralToRoman {
 
-    String getRoman(int nombre){
+    public String getRoman(int number){
         throw new RuntimeException("Not yet implemented");
     }
 }
