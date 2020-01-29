@@ -298,7 +298,7 @@ Pour exécuter le programme compilé :
 L'avantage d'utiliser IntelliJ IDEA est qu'à priori vous n'avez pas à installer les diverses dépendances, l'outil est _"self-contained"_.
 En revanche, si vous passez par la console, il se peut que vous soyez amenés à installer ou importer divers outils.
 Notamment, pour exécuter les tests unitaires dans un terminal, il faudrait utiliser un exécutable `.jar` correspondant
-à la platforme JUnit et contenant l'ensemble de dépendances nécessaires :
+à la plateforme JUnit et contenant l'ensemble de dépendances nécessaires :
 ```
 ~/POO/TP2$  java -jar junit-platform-console-standalone-<version>.jar <Options>
 ```
