@@ -78,7 +78,7 @@ Lorsque vous ouvrez votre projet Java, la fenêtre d'affichage de votre IDE devr
 
 Prenez quelques minutes pour observer l'interface utilisateur. Les éléments principaux :
 * à gauche : l'arborescence de votre projet Java
-* centre-droite : la fenêtre d'édition ou vous allez taper vos programme
+* centre-droite : la fenêtre d'édition où vous allez taper vos programmes
 * en bas : le terminal où seront affichés les messages concernant l'exécution de vos programmes
 
 
