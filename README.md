@@ -114,8 +114,8 @@ Le terme _unitaire_ insiste sur le côté "élémentaire" de la fonctionnalité 
 
 L'outil le plus répandu pour gérer les tests unitaires en Java est le framework [JUnit](https://junit.org/junit5/).
 Les tests sont écrits dans une classe Java comme vous avez l'habitude.
-La différence entre le fonctions "normales" et les fonctions de test est l'annotation `@Test`.
-Celle-ci doit préceder chaque test unitaire. Exemple :
+La différence entre les fonctions "normales" et les fonctions de test est l'annotation `@Test`.
+Celle-ci doit précéder chaque test unitaire. Exemple :
 ```java
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
@@ -124,7 +124,7 @@ class MaPetiteClasseDeTests {
     
     @Test
     void monJoliPremierTest() {
-        assertEquals(3, 1 + 2); // On vérifie que 1 + 2 vaut bien 3
+        assertEquals(1 + 2, 3); // On vérifie que 1 + 2 vaut bien 3
     }
 }
 ```
