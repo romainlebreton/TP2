@@ -247,14 +247,15 @@ Est-ce que vos tests sont suffisants ? Que se passe-t-il lors de la conversion `
 
 **Additionneur romain**
 
-En utilisant les deux classes écrites précédemment, créez une classe `RomanAdditionner` qui contiendra une méthode `compute()`. Cette méthode prendra en paramètre une chaîne de caractères représentant une expression arithmétique romaine telle que :
+En utilisant les deux classes écrites précédemment, créez une classe `RomanAdditionner` qui contiendra une méthode `String compute()`. Cette méthode prendra en paramètre une chaîne de caractères représentant une expression arithmétique romaine telle que :
 
  - les opérandes sont écrits en numérotation romaine
  - les opérations possibles sont `+` et `-`
 
-Voici un exemple d'expression arithmétique : `MMMXL` + `XII` - `CIX`.
+Le retour de cette fonction devra correspondre au résultat du calcul de l'expression arithmétique écrit sous forme d'un nombre romain.
+Par exemple pour l'expression arithmétique `MMMXL` + `XII` - `CIX` passée en paramètre, la valeur retournée devrait être : `MMCMXLIII`.
 
-Le résultat correspondant devrait être : `MMCMXLIII`.
+Afin de vérifier votre code, vous pouvez écrire quelques tests unitaires dans une nouvelle classe de test (par ex. `RomanAdditionnerTest` dans le paquetage `fr.umontpellier.iut.exercice3`).
 
 ### Et ce n'est pas fini !
 
