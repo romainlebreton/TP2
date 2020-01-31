@@ -11,138 +11,138 @@ class RomanToNumeralTest {
     @Disabled
     @Test
     void I_should_give_1() {
-        assertEquals(romanToNumeral.getNumeral("I"), 1);
+        assertEquals(1, romanToNumeral.getNumeral("I"));
     }
 
 
     @Disabled
     @Test
     void V_should_give_5() {
-        assertEquals(romanToNumeral.getNumeral("V"), 5);
+        assertEquals(5, romanToNumeral.getNumeral("V"));
     }
 
 
     @Disabled
     @Test
     void X_should_give_10() {
-        assertEquals(romanToNumeral.getNumeral("X"), 10);
+        assertEquals(10, romanToNumeral.getNumeral("X"));
     }
 
 
     @Disabled
     @Test
     void L_should_give_50() {
-        assertEquals(romanToNumeral.getNumeral("L"), 50);
+        assertEquals(50, romanToNumeral.getNumeral("L"));
     }
 
 
     @Disabled
     @Test
     void C_should_give_100() {
-        assertEquals(romanToNumeral.getNumeral("C"), 100);
+        assertEquals(100, romanToNumeral.getNumeral("C"));
     }
 
 
     @Disabled
     @Test
     void D_should_give_500() {
-        assertEquals(romanToNumeral.getNumeral("D"), 500);
+        assertEquals(500, romanToNumeral.getNumeral("D"));
     }
 
 
     @Disabled
     @Test
     void M_should_give_1000() {
-        assertEquals(romanToNumeral.getNumeral("M"), 1000);
+        assertEquals(1000, romanToNumeral.getNumeral("M"));
     }
 
     @Disabled
     @Test
     void II_should_give_2() {
-        assertEquals(romanToNumeral.getNumeral("II"), 2);
+        assertEquals(2, romanToNumeral.getNumeral("II"));
     }
 
     @Disabled
     @Test
     void III_should_give_3() {
-        assertEquals(romanToNumeral.getNumeral("III"), 3);
+        assertEquals(3, romanToNumeral.getNumeral("III"));
     }
 
 
     @Disabled
     @Test
     void IV_should_give_4() {
-        assertEquals(romanToNumeral.getNumeral("IV"), 4);
+        assertEquals(4, romanToNumeral.getNumeral("IV"));
     }
 
 
     @Disabled
     @Test
     void VI_should_give_6() {
-        assertEquals(romanToNumeral.getNumeral("VI"), 6);
+        assertEquals(6, romanToNumeral.getNumeral("VI"));
     }
 
     @Disabled
     @Test
     void VII_should_give_7() {
-        assertEquals(romanToNumeral.getNumeral("VII"), 7);
+        assertEquals(7, romanToNumeral.getNumeral("VII"));
     }
 
     @Disabled
     @Test
     void VIII_should_give_8() {
-        assertEquals(romanToNumeral.getNumeral("VIII"), 8);
+        assertEquals(8, romanToNumeral.getNumeral("VIII"));
     }
 
     @Disabled
     @Test
     void IX_should_give_9() {
-        assertEquals(romanToNumeral.getNumeral("IX"), 9);
+        assertEquals(9, romanToNumeral.getNumeral("IX"));
     }
 
 
     @Disabled
     @Test
     void XI_should_give_11() {
-        assertEquals(romanToNumeral.getNumeral("XI"), 11);
+        assertEquals(11, romanToNumeral.getNumeral("XI"));
     }
 
     @Disabled
     @Test
     void XL_should_give_40() {
-        assertEquals(romanToNumeral.getNumeral("XL"), 40);
+        assertEquals(40, romanToNumeral.getNumeral("XL"));
     }
 
 
     @Disabled
     @Test
     void XC_should_give_90() {
-        assertEquals(romanToNumeral.getNumeral("XC"), 90);
+        assertEquals(90, romanToNumeral.getNumeral("XC"));
     }
 
     @Disabled
     @Test
     void CD_should_give_400() {
-        assertEquals(romanToNumeral.getNumeral("CD"), 400);
+        assertEquals(400, romanToNumeral.getNumeral("CD"));
     }
 
 
     @Disabled
     @Test
     void CM_should_give_900() {
-        assertEquals(romanToNumeral.getNumeral("CM"), 900);
+        assertEquals(900, romanToNumeral.getNumeral("CM"));
     }
 
     @Disabled
     @Test
     void XLIX_should_give_49() {
-        assertEquals(romanToNumeral.getNumeral("XLIX"), 49);
+        assertEquals(49, romanToNumeral.getNumeral("XLIX"));
     }
 
     @Disabled
     @Test
     void XCIX_should_give_99() {
-        assertEquals(romanToNumeral.getNumeral("XCIX"), 99);
+        assertEquals(99, romanToNumeral.getNumeral("XCIX"));
     }
 
     @Disabled
@@ -249,7 +249,7 @@ class RomanToNumeralTest {
                 "CMLXXXV", "CMLXXXVI", "CMLXXXVII", "CMLXXXVIII", "CMLXXXIX", "CMXC", "CMXCI", "CMXCII", "CMXCIII",
                 "CMXCIV", "CMXCV", "CMXCVI", "CMXCVII", "CMXCVIII", "CMXCIX", "M"};
         for (int i = 0; i < 1000; i++) {
-            assertEquals(romanToNumeral.getNumeral(values[i]), i + 1);
+            assertEquals(i + 1, romanToNumeral.getNumeral(values[i]));
         }
     }
 }
