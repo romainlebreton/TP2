@@ -109,14 +109,14 @@ class NumeralToRomanTest {
 
     @Disabled
     @Test
-    void XI_should_give_11() {
+    void eleven_should_give_XI() {
         assertEquals("XI", numeralToRoman.getRoman(11));
     }
 
 
     @Disabled
     @Test
-    void thousandsixtysix_should_give_1066() {
+    void thousandsixtysix_should_give_MLXVI() {
         assertEquals("MLXVI", numeralToRoman.getRoman(1066));
     }
 
