@@ -36,7 +36,7 @@ Contrairement au TP1, ne clonez pas tout de suite vous même ce fork, l'IDE s'en
 
 IntelliJ IDEA possède deux versions, la première dite *'communautaire'* est totalement open source et peut être utilisée 
 gratuitement par n'importe qui et la seconde dite *'ultimate'* qui est plus riche en fonctionnalités et qui n'est pas 
-gratuite. Les deux versions du logiciels sont présentes sur les machines du département. Par chance, comme dans le cas de GitHub, en tant qu'étudiant, vous avez la 
+gratuite. Pour les TPs qui vont suivre, vous aurez besoin de la version *'ultimate'* et par chance, comme dans le cas de GitHub, en tant qu'étudiant, vous avez la 
 possibilité de pouvoir bénéficier d'une licence pour tous les produits JetBrains. Pour bénéficier de cette remise, il 
 vous suffit de remplir [ce formulaire](https://www.jetbrains.com/shop/eform/students).
 
@@ -47,7 +47,7 @@ chez vous et dans les salles de TP.
 
 **Premier lancement de l'IDE**
 
-Sur les postes Linux du département informatique de l'IUT de Montpellier, IntelliJ IDEA Ultimate est installé dans `/opt/ide-Ultimate/` (et la version 'communautaire' dans `/opt/Community-idea/bin`):
+Sur les postes Linux du département informatique de l'IUT de Montpellier, IntelliJ IDEA Ultimate est installé dans `/opt/ide-Ultimate/` :
 ```
 ~/RepertoireCourant$  cd /opt/ide-Ultimate/bin
 /opt/ide-Ultimate/bin$  ./idea.sh
@@ -124,7 +124,7 @@ class MaPetiteClasseDeTests {
     
     @Test
     void monJoliPremierTest() {
-        assertEquals(1 + 2, 3); // On vérifie que 1 + 2 vaut bien 3
+        assertEquals(3, 1 + 2); // On vérifie que la valeur attendue 3 et bien le résultat de 1 + 2
     }
 }
 ```
