@@ -59,7 +59,7 @@ Après le chargement, vous devriez tomber sur une première fenêtre vous propos
 
 À partir de là vous allez tomber sur la partie de personnalisation de votre installation pour qu'elle corresponde à vos besoins. Sur l'aspect esthétique, choisissez ce qui vous convient le mieux. En ce qui concerne les différents plugins à intégrer, à priori, les options installées par défaut sont suffisantes, donc vous choisirez l'installation par défaut.
 
-À la fin, si vous avez lancé la version IntelliJ IDEA Ultimate, vous allez saisir vos données de connexion pour activer la licence et pour terminer le paramétrage de votre IDE. Pour la version IntelliJ IDEA Community, vous n'avez pas à vous authenthifier et pouvez passer cette étape.
+À la fin, vous allez saisir vos données de connexion pour activer la licence et pour terminer le paramétrage de votre IDE.
 
 **Import du projet dans l'IDE**
 
